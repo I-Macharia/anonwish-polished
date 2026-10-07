@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 40 33% 98%;
+  --foreground: 160 20% 10%;
+  --card: 0 0% 100%;
+  --muted: 150 15% 94%;
+  --muted-foreground: 160 8% 38%;
+  --border: 150 12% 86%;
+  --primary: 160 84% 24%;
+  --primary-foreground: 0 0% 100%;
+  --ring: 160 84% 30%;
+}
+.dark {
+  --background: 160 18% 8%;
+  --foreground: 40 20% 94%;
+  --card: 160 16% 11%;
+  --muted: 160 12% 16%;
+  --muted-foreground: 150 8% 65%;
+  --border: 160 10% 22%;
+  --primary: 158 64% 46%;
+  --primary-foreground: 160 30% 8%;
+  --ring: 158 64% 52%;
+}
